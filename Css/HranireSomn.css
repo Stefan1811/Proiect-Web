@@ -1,0 +1,260 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(209, 224, 239);
+    
+    
+}
+@media screen and (min-width:800px) {
+.MainBody{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns:1fr 3fr 1fr 20px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 20px;
+}
+
+form {
+  text-align: center;
+}
+
+.pad_button {
+  margin-top: 100px;
+}
+
+#addVisitButton {
+  
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+#addFoodButton {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+
+
+
+.LeftInfo{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgb(180, 221, 254);
+    display:flex;
+    flex-direction: column;
+    /*visibility: hidden;*/
+    width:100%;
+}
+.InfoText{
+   margin-left: 20%;
+}
+
+
+.CenterInfo{
+    grid-column: 2;
+    grid-row: 1;
+    
+    width:100%;
+    display: flex;
+}
+
+.RightInfo{
+    grid-column: 3;
+    grid-row: 1;
+    background-color:rgb(180, 221, 254);
+    display:flex;
+    flex-direction: column;
+    width:100%;
+
+}
+.ProfilePicture{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CenterInfo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.MainImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 20%;
+ 
+}
+.FeedingPlanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    margin-left:0px;
+    align-items: center;
+}
+
+.Planer{
+    width:100%;
+    text-align: center;
+    max-width: 20vw;
+    max-height: auto;
+}
+.FriendsList{
+    display:block;
+}
+
+.menus{
+    display:flex;
+    flex-direction: column;
+}
+.MenuItem{
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.InfoRight{
+    margin-left: 50px;
+    align-self: center;
+    font-size: x-large;
+
+}
+.InfoLeft{
+    margin-left: 50px;
+    align-self: center;
+    font-size: x-large;
+
+}
+.diagramImage{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 80%;
+}
+}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 30px 1px;
+  width: 100%;
+  background: rgb(0, 117, 195);
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: rgb(0, 117, 195);
+  color: white !important
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    background-color: rgb(135, 168, 199);
+
+  }
+  th{
+    border: 1px solid rgb(0, 117, 195);
+    background-color: rgb(0, 117, 195);
+    text-align: center;
+    justify-content: center;
+    padding: 8px;
+  }
+  td{
+    border: 1px solid rgb(180, 221, 254);
+    text-align: center;
+    justify-content: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  table th,
+  table td {
+      text-align: center; /* Center the contents of table cells */
+  }
+

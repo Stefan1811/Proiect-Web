@@ -1,0 +1,24 @@
+<?xml version ='1.0' ?>
+<rss version = '2.0' >
+<channel>
+<title> Cildren</title>
+<description> All the important things about my children</description>
+<language>en-US</language>
+<link>localhost</link><allKids>
+<kid><firstName>ff</firstName>
+<lastName>ff</lastName>
+<dateBirth>2023-06-14</dateBirth>
+<sex>male</sex>
+<weight>123</weight>
+<height>333</height>
+</kid>
+<kid><firstName>aaa</firstName>
+<lastName>aaa</lastName>
+<dateBirth>2023-06-14</dateBirth>
+<sex>male</sex>
+<weight>123</weight>
+<height>123</height>
+</kid>
+</allKids>
+</channel>
+</rss>

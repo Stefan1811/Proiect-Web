@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="../Css/Navbar.css">
+    <link rel="stylesheet" href="../Css/EditData.css">
+    
+  </head>
+<body>
+<nav class = "navbar">
+    <div class="containerTop">
+        <div class="pageName">BabyMonitor</div>
+        <ul class="navButtons">
+         <li> <a href="../MainPage.html">Pagina Principala</a></li>   
+         <li> <a href="../User/User.html">Pagina Copilului</a></li>   
+         <li> <a href="../EditareDate/EditData.html">Edit Data</a></li> 
+         <li> <a href="../Login/Login.php">Log Out</a></li>
+         <li> <a href="../Ajutor/Ajutor.html">Ajutor/Tips</a></li>  
+         <li> <a href="#">Contact</a></li>  
+        </ul>
+    </div>
+</nav>
+<div class = "MainBody">
+    <div class = "LeftInfo">
+        <image class="ProfilePicture" src="../Images/baby.jpeg">
+        <p class="InfoText"><strong>Nume: </strong>Iliescu</p>
+        <p class="InfoText"><strong>Prenume: </strong> Rares</p>
+        <p class="InfoText"><strong>Varsta: </strong> 1 an 21 zile</p>
+        <p class="InfoText"><strong >Sex: </strong>Baiat</p>
+        <p class="InfoText"><strong>Inaltime: </strong> 56cm</p>
+        <p class="InfoText"><strong>Greutate: </strong> 4360g</p>
+        <!--<div class = "FeedingPlanner">
+            <p class="InfoLeft">Planner</p>
+            <image class="Planer" src="../Images/Planer.png">
+        </div>
+    -->
+    <div class="Feeding Planner">
+    <div class="month">
+        <ul>
+          <li class="prev">&#10094;</li>
+          <li class="next">&#10095;</li>
+          <li>April<br><span style="font-size:18px">2023</span></li>
+        </ul>
+      </div>
+      
+      <ul class="weekdays">
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
+        <li>Su</li>
+      </ul>
+      
+      <ul class="days">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li><span class="active">10</span></li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li>18</li>
+        <li>19</li>
+        <li>20</li>
+        <li>21</li>
+        <li>22</li>
+        <li>23</li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li>30</li>
+        <li>31</li>
+      </ul>
+    </div>
+</div>
+    <div class = "CenterInfo">
+
+        <formular>
+            <form class="FormularInput" action = "" method = "post">
+                <p class="InfoForm"> Editarea datelor copilului</p>
+                <div class = "input">
+                    <label> Varsta(ani si zile):</label><br>
+                    <input placeholder=""class="inputField" type="text" id="name" name="user_name" />
+                </div>
+                <div class = "input">
+                    <label> Inaltime in cm:</label><br>
+                    <input placeholder="" class="inputField" type="text" id="password" name="pass" />
+                </div>
+                <div class = "input">
+                    <label> Greutate in grame:</label><br>
+                    <input placeholder="" class="inputField" type="text" id="password" name="pass" />
+                </div>
+                <div class = "input">
+                    <label> Hranire noua:</label><br>
+                    <input placeholder="" class="inputField" type="text" id="password" name="pass" />
+                </div>
+                <div class = "input">
+                    <label> Programre doctor:</label><br>
+                    <input placeholder="  Programre doctor" class="inputField" type="datetime-local" id="password" name="pass" />
+                </div>
+                <div class="buttons">
+                    <button class="simpleButton" type = "submit" id = "sub" >Submit data</button>
+                </div>
+            </form>
+        
+        </formular>
+    </div>
+    <div class = "RightInfo">
+       
+
+        <p class="InfoRight"> Friend List</p>
+        <div class="FriendsList">
+            <p class = "MenuItem">Hribu Costel</p>
+            <p class = "MenuItem">Jorge Ahroci</p>
+            <p class = "MenuItem">France Ferdinand</p>
+            <p class = "MenuItem">Popescu Ionel</p>
+            <p class = "MenuItem">Alexandra Ioana</p>
+            <p class = "MenuItem">Pavel Monica</p>
+            <p class = "MenuItem">Munteanu Ionela</p>
+        </div>
+    </div>
+    
+</div>
+</body>
+
+  

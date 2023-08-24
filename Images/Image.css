@@ -1,0 +1,66 @@
+.UserImage{
+    height: auto;
+    max-width: 100%;
+    
+    
+}
+.itemsDiv{
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.imagediv{
+  
+  margin: auto
+  
+}
+
+.buttonThing{
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.buttonThingFav{
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #4CAF50;
+}
+
+.FilePicker
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+.FPB{
+
+  font-size: large;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .UserImage {
+        height: auto;
+        max-width: 60%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .UserImage{
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

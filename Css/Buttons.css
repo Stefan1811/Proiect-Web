@@ -1,0 +1,66 @@
+.textformat {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(0, 117, 195);
+}
+
+
+.textformat h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+    
+
+}
+.hero-buttons {
+    
+    padding: 10px 20px;
+    background-color: #fff;
+    color: rgb(0, 117, 195);
+    width: 200px; 
+    min-height: auto;
+    margin: 0 10px; 
+    border-color: rgb(0, 117, 195);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.hero-buttons-again {
+    
+    padding: 10px 20px;
+    background-color: #fff;
+    color: rgb(0, 117, 195);
+    width: 400px; 
+    min-height: auto;
+    margin: 0 10px; 
+    border-color: rgb(0, 117, 195);
+    border-radius: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.textlogin
+{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 12%;
+    left: 50%;
+    text-align: center;
+    color: rgb(0, 117, 195);
+    font-size: 80px;
+    margin-bottom: 10px;
+
+}
+.para{
+    min-height: 3vh;
+    min-width: 30vh;
+    font-size: 30px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.inputt{
+    margin-top:0 px;
+    margin-bottom: 0 px;
+}

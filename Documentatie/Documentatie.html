@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="sign-style.css" rel="stylesheet" />
+    
+    <title>Documentatie Web BIM</title>
+</head>
+<body>
+
+    <header>
+        <h1 class="header1">
+            RAPORT TEHNIC AL PROIECTULUI <br> BABY INFO MANAGER <br>
+            UNIVERSITATEA “ALEXANDRU IOAN CUZA” <br> FACULTATEA DE INFORMATICA
+        </h1>
+       
+
+    </header>
+        <div class="container">
+
+                <div class="cuprins">
+                    <ol style="list-style: none;">
+                        <li><a href="#introduction" ; style="text-decoration: none;"  ><span>1. Introduction</span></a>
+                            <ol style="list-style: none;">
+                                <li><a href="#purpose"; style="text-decoration: none;"><span>1.1 Purpose</span></a></li>
+                                <li><a href="#product_scope" ; style="text-decoration: none;"><span>1.2 Product Scope</span></a></li>
+                            </ol>
+
+                        <li><a href="#overall_desc"; style="text-decoration: none;"><span>2. Overall description</span></a>
+                        
+                                <ol style="list-style: none;">
+                                
+                                    <li><a href="#prod_persp" ; style="text-decoration: none;"><span>2.1 Product Perspective
+                                    </span></a></li>
+                                    <li><a href="#product_func" ; style="text-decoration: none;"><span>2.2 Product Functions</span></a></li>
+                                    <li><a href="#product_openv" ; style="text-decoration: none;"><span>2.3 Operating Environment</span></a></li>
+                            
+                                </ol>
+                        </li>
+
+                        <li><a href="#external_req"; style="text-decoration: none;"><span>3. External Interface Requirements</span></a>
+
+                            <ol style="list-style: none;">
+                                <li><a href="#user_interf" ; style="text-decoration: none;"><span>3.1 User Interfaces</span></a></li>
+                     
+                                <li><a href="#soft_interfaces" ; style="text-decoration: none;"><span>3.2 Software Interfaces</span></a></li>
+
+                            </ol>
+                        </li>
+
+
+                        <li><a href="#sys_feat"; style="text-decoration: none;"><span>4. System Features</span></a>
+
+                            <ol style="list-style: none;">
+                                <li><a href="#sys_feat1" ; style="text-decoration: none;"><span>4.1 Friends, Sleep, Meal, Doctor visits track</span></a></li>
+                     
+                                <li><a href="#sys_feat2" ; style="text-decoration: none;"><span>4.2 Saving important pictures of the child</span></a></li>
+
+                                
+
+                            </ol>
+                        </li>
+
+                        <li><a href="#conc"; style="text-decoration: none;"><span>5. Conclusions</span></a>
+
+                            
+                        </li> 
+
+                    </ol>
+
+                <d1>
+
+                    <dt class="text_general">Authors (2E1)</dt>
+                    <dd class="text_general">Bodescu Rareș-Ștefan & Hrincă Robert-Mateiaș & Maxim Matei</dd>
+
+                </d1>
+
+                <section id="introduction">
+                        <h2 class="header2">1. Introduction</h2>
+                        <p class="text_general">This report will cover the development of the 
+                            project "Baby Info Manager" . There will be discussed its purpose, 
+                            what is does, how it interacts with hardware devices and what software
+                            technologies were used for implementation. </p>
+                </section> 
+
+                <section id="purpose">
+                    <h2 class="header2">1.1 Purpose</h2>
+                    <p class="text_general"> Baby Info Manager is a project which aims at providing
+                        its users with information about taking care of a child in a proper way. 
+                        Not only that but also having a tracking system that 
+                        takes notice of a child sleep, medical visits and meals. The application is at its first 
+                        iteration, the team hasn't developed anything similar before.
+                    </p>
+                </section>
+
+                <section id="product_scope">
+                    <h2 class="header2">1.2 Product Scope</h2>
+                    <p class="text_general">The application is going to track every aspect of a
+                        child's life, such as: sleep schedule, diet, medical
+                        history and social interactions. <br> The benefits of the application
+                        lay in having a controlled way of taking care of a child. Having such a vast
+                        amount of information about one's life makes things easier to get it on the right 
+                        path by analyzing the knowledge given by the application. The main objective
+                        of Baby Info Manager is to make parenting easier, therefore giving a
+                        kid the best life they can have.
+                        </p>
+                </section>
+
+                <section id="overall_desc">
+                    <h2 class="header2">2. Overall description</h2>
+                </section>
+
+                <section id="prod_persp">
+                    <h2 class="header3">2.1 Product Perspective</h2>
+                    <p class="text_general">The application is a self-contained product. It is developed
+                        only by the team mentioned in this report. It is developed by using primarily HTML AND CSS for front-end,
+                        and PHP and MySQL for back-end.
+                        <img src="imgs/diagram.png" ; style="padding-top: 30px;">
+                        
+
+                    </p>
+                </section>
+                
+                <section id="product_func">
+                    <h2 class="header2">2.2 Product Functions</h2>
+                    <p class="text_general">The application will have the following functions: <br>
+                        <ul class="text_general"; style="padding-left: 70px;">
+                            <li>Diet tracking and planning: the application will give its
+                                user the ability to plan meals in advance and 
+                                also having a history of the meals served in the past. 
+                            </li>
+                            <li style="padding-top: 10px;">Sleep tracking: the user will be able to monitor how many hours
+                                of sleep the child gets daily. The said hours will be introduced
+                                manually into the application.
+                            </li>
+                            <li style="padding-top: 10px;"  >Medical history: the user will be
+                            able to introduce conditions or diseases of the child if the case.
+                            It will also be possible to modify those aspects.
+                            </li>
+                            <li style="padding-top: 10px;">Social interactions: the user will 
+                            be able to monitor the main people the child is interacting with.
+                            </li>
+                          </ul>
+                        
+                        </p>
+                </section>
+                
+                <section id="product_openv">
+                    <h2 class="header2">2.3 Operating Environment</h2>
+                    <p class="text_general">Baby Info Manager will be available on any device
+                        and operating system that has a functioning browser, whether it be a PC or
+                        portable device.
+                        <img src="imgs/PC.png";  class="PC_pic" >
+                        <img src="imgs/telefon.png"; class="telefon_pic">
+                        
+                        </p>
+                </section>
+
+                <section id="external_req">
+                    <h2 class="header2">3. External Interface Requirements</h2>
+                </section>
+
+                <section id="user_interf">
+                    <h2 class="header3">3.1 User Interfaces</h2>
+                    <p class="text_general">The application has the following pages which the user
+                        can interact with:  
+                        <ul class="text_general"; style="padding-left: 70px;" >
+
+                            <li>The Create Account page
+                                <p>The user will be able to create an account via this page by introducing an email, a password, a first and a last name.
+                                </p>
+                                
+                            </li>
+                        </ul>
+                        <img src="imgs/createaccount.png" ; class="img_General">
+
+                        <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                            <li>The Login page
+                                <p>The user will be able to connect into their account by introducing the email and passoword they chose at registration.
+                                </p>
+                            </li>
+                        </ul>
+                        <img src="imgs/PC.png" ; class="img_General">
+                    </p>
+
+                    <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                        <li>The Parent Menu page
+                            <p>
+                                After logging in, the user will be redirected to this page. Here lies the core functions of the application via which a child or more will be introduced in the system to be tracked. 
+                            </p>
+                        </li>
+                    
+                    </ul>
+                    <img src="imgs/parentmenu.png"; class="img_General">
+
+                    <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    
+                        <li>The My Children page
+                            <p>
+                                This page shows the names of the children that were introduced in the application by the parent. One of the names can be clicked in order to manage the information about the child.
+                            </p>
+                        </li>
+                    </ul>
+                    <img src="imgs/childmanagement.png"; class="img_General">
+
+
+                    <!-- MENIU COPIL -->
+
+                        
+                    <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    
+                        <li>The Child Menu page
+                            <p>
+                                This page shows the all the information we can change,introduce and check about the child.
+                            </p>
+                        </li>
+                    </ul>
+                    <img src="imgs/childrenmenu.png"; class="img_General">
+
+
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Show Child Details page
+                        <p>
+                            This page shws the child's name, sex, birthday, weight and height.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/childinfo.png" ; class="img_General">
+
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Medical History page 
+                        <p>
+                            This page allows the user to check the child's medical visits summaries introduced by the parent.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/medical.png"; class="img_General">
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Medical Visit Add page 
+                        <p>
+                            This page allows the user to add to the child's medical visits summaries.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/addmedical.png"; class="img_General">
+
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Friends page 
+                        <p>
+                            This page allows the user check the child's friendships, acquaintances and cousins.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/friend.png"; class="img_General">
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Friends Add page 
+                        <p>
+                            This page allows the user to add to the child's friendships, acquaintances and cousins.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/addfriend.png"; class="img_General">
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Sleep History page 
+                        <p>
+                            This page allows the user to check the child's slept hours whenever it has been introduced by the parent.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/sleep.png"; class="img_General">
+
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Add Sleep page 
+                        <p>
+                            This page allows the user to check the add to the child's slept hours.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/addsleep.png"; class="img_General">
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Meal History page 
+                        <p>
+                            This page allows the user to check the add to the child's eaten meals whenever they have been introduced by the parent.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/meal.png"; class="img_General">
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Add Meal page 
+                        <p>
+                            This page allows the user to add to the child's eaten meals.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/addmeal.png"; class="img_General">
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Change Child's info page 
+                        <p>
+                            This page allows the user to change the information initially introduced by the parent.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/changechildinfo.png"; class="img_General">
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Pictures page 
+                        <p>
+                            This page allows the user to upload pictures in the application and to whether set them as favorite or delete them. By clikcing the "Favorites" button there will be shown only the pictures selected as favorites, and by clicking "Not Favorites" there will be shown all the updated pictures in the app of that child's account.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/pic.png"; class="img_General">
+                <img src="imgs/pic1.png"; class="img_General">
+
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Add Child page 
+                        <p>
+                            This page allows the user to add the child to the "My Children" page after their accounts have been created.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/addchild.png"; class="img_General">
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Create Child Account page 
+                        <p>
+                            This page allows the user to create an account for one of its intended childern to be tracked by the application.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/createchild.png"; class="img_General">
+
+
+                <ul class="text_general"; style="padding-left: 70px;" ; style="padding-top: 20px;">
+                    <li>The Change Password page 
+                        <p>
+                            This page allows the user to the password of their account.
+                        </p>
+
+                    </li>
+                </ul>
+                <img src="imgs/changepassword.png"; class="img_General">
+
+
+                <!--RSS-->
+
+                </section >
+                
+            
+               
+                  
+                <section id="soft_interfaces">
+                    <h2 class="header2">3.2 Software Interfaces</h2>
+                    <p class="text_general"> The application is developed by using HTML
+                        (HyperText Markup Language) and CSS (Cascading Style Sheets) for front-end 
+                        and as far as the back-end is concerned, PHP and MySQL is being used.
+                        <ul class="text_general"; style="padding-left: 70px;" ;>
+                            <li>Front-end HTML snippet code for the Change Password page: </li>
+                        </ul>
+                       
+                    </p>
+                    <pre  style="color: black;">
+
+                        &lt;h1 class="textlogin"&gt;Change Password&lt;/h1&gt;
+                        &lt;form class="FormularInput" action="ChangePasswordParent.php" 
+                        method="post"&gt;
+                          &lt;div class="input"&gt;
+                            &lt;input placeholder="  E-mail" class="inputField" 
+                            type="text" id="email" name="email" /&gt;
+                          &lt;/div&gt;
+                          &lt;div class="input"&gt;
+                            &lt;input placeholder="  Password" class="inputField"
+                             type="password" id="password" name="password" /&gt;
+                          &lt;/div&gt;
+                          &lt;div class="input"&gt;
+                            &lt;input placeholder="  New Password" class="inputField"
+                             type="password" id="passwordNew" name="passwordNew" /&gt;
+                          &lt;/div&gt;
+                          &lt;div class="input"&gt;
+                            &lt;input placeholder="  Repeat New Password" class="inputField" 
+                            type="password" id="passwordNew1" name="passwordNew1" /&gt;
+                          &lt;/div&gt;
+                          &lt;button class="hero-buttons" name="change" type="submit"
+                           id="sub" value="change"&gt;Change Password&lt;/button&gt;
+                          &lt;/div&gt;
+                          &lt;div class="buttons"&gt;
+                            &lt;button class="hero-buttons" id="sub"
+                             formaction="../ParentMain/ParentMain.php"
+                            &gt;Back to Parent Menu&lt;/button&gt;
+                          &lt;/div&gt;
+                        &lt;/form&gt;
+                    </pre>
+                    <ul class="text_general"; style="padding-left: 70px;" ;>
+                        <li>Front-end CSS snipped code for Change Password page: </li>
+                    </ul>
+                <pre style="color: black;">
+                    @media screen and (min-width:800px) {
+                        .MainBody{
+                            display: grid;
+                            width: 100vw;
+                            height: 100vh;
+                            grid-template-columns:1fr 3fr 1fr 20px;
+                        
+                        }
+                        
+                        .container {
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          height: 100vh;
+                          margin-top: 20px;
+                        }
+                        
+                        form {
+                          text-align: center;
+                        }
+                        
+                        .pad_button {
+                          margin-top: 100px;
+                        }
+                        
+                        #addVisitButton {
+                          
+                          padding: 10px 20px;
+                          font-size: 18px;
+                        }
+                        
+                        #addFoodButton {
+                          padding: 10px 20px;
+                          font-size: 18px;
+                        }
+                </pre>
+
+                <ul class="text_general"; style="padding-left: 70px;" ;>
+                    <li>Back-end PHP snippet code for the Change Password page: </li>
+                </ul>
+                <pre style="color:black">
+                    &lt;?php
+                    ini_set('display_errors', 1);
+                    error_reporting(~0);
+                    require "../Utils/Connection.php";
+     if (isset($_POST["change"]) and $_SERVER['REQUEST_METHOD'] == "POST")
+                    {
+                      define ('URL', 'http://localhost/ProiectWeb/Utils/Parent.php');
+                      $fields =[
+                        "email" => htmlspecialchars($_POST['email']),
+                        "password" => htmlspecialchars($_POST['password']),
+                        "passwordNew" => htmlspecialchars($_POST['passwordNew']),
+                        "passwordNew1" => htmlspecialchars($_POST['passwordNew1'])
+                      ];
+                      $fields_string = json_encode($fields);
+                      $c = curl_init ();								 
+                      curl_setopt ($c, CURLOPT_URL,URL);           
+                      curl_setopt ($c, CURLOPT_RETURNTRANSFER, true);  
+                      curl_setopt ($c, CURLOPT_CUSTOMREQUEST,"PUT");
+                      curl_setopt ($c, CURLOPT_SSL_VERIFYPEER, false);
+                      curl_setopt ($c, CURLOPT_POSTFIELDS,$fields_string);
+                      $res = curl_exec ($c);                           
+                      curl_close ($c);	
+                      //$res = json_decode($res,true);
+                      //echo ($res);
+                    
+                    }
+                    ?&gt;
+                </pre>
+                </section>
+                
+                <section id="sys_feat">
+                    <h2 class="header2">4. System Features</h2>
+                    <h2 id="sys_feat1" class="header3">4.1 Friends, Sleep, Meal, Doctor visits track</h2>
+                    <p class="text_general">Baby Info Manager application was built in mind with this section's listed features.
+                        For instance, if a child starts to be sickly all of a sudden a parent might not know exactly where that comes from.
+                        By tracking the people the child interacts with, what they eat and when, when they sleep and for how much
+                        and what the doctor says at each visit, for sure it will be easier for the parent to spot a dead angle
+                        when it comes to their child's unrest. The application was made to give as much freedom to the parent as 
+                        there is to give. They are not constrained by any predefined meals, hours of sleep or doctor visits.
+                    </p>
+                    <h2 class="header3">4.2 Saving important pictures of the child</h2>
+                    <p class="text_general"> 
+                        Baby Info Manager application provides the parent with the possibility to save important pictures of their child
+                        right into the application itself. Those pictures are private and can only be seen by the one with the account.
+                    </p>
+                        
+                
+            </section>
+                
+              <section id="conc">
+                    <h2 class="header2">5. Conclusions</h2>
+                    <p class="text_general">To summarize, Baby Info Manager application
+                        aims at providing its users with the best version of the 
+                        features described that help parents to keep track of 
+                        every aspect of their children's lives.
+                    
+                        
+                    </p>
+            </section>
+                </div>
+
+    </div>
+</body>
+</html>
